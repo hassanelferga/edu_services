@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\edu_services.Domain\edu_services.Domain.csproj" />
+    <ProjectReference Include="..\edu_services.Infrastructure\edu_services.Infrastructure.csproj" />
+    <ProjectReference Include="..\edu_services.Services\edu_services.Services.csproj" />
+  </ItemGroup>
+
+</Project>
